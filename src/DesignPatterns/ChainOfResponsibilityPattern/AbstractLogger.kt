@@ -1,6 +1,6 @@
 package DesignPatterns.ChainOfResponsibilityPattern
 /*
-This is a little bit complicated pattern and needs to be traced or debugged in order to understand the login very good.
+This is a little bit complicated pattern and needs to be traced or debugged in order to understand the logic very good.
 
 As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request.
 This pattern decouples sender and receiver of a request based on type of request.
