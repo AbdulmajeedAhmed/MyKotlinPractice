@@ -1,0 +1,6 @@
+object is like a class but uses singlton pattern and can inherit.
+companion object is like object but can be declared within a class.
+-------------
+sealed class insures to you that the class is never be inherieted again ,
+just the classes inside it will inherit it..
+and all the classes should be in the same file.
