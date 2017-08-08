@@ -1,9 +1,9 @@
 package Others
 
 fun main(args: Array<String>) {
+
     // invoking
    // highOrder(::sum)
-
     // using Lambda
     highOrder({x,y -> x+y}) // without coding the function ..
 }
