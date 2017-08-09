@@ -1,7 +1,7 @@
 package DataStructuresAndAlgorithms.LinkedListU
 
 class MyLinkedList {
-    private var head:Node? = null
+    private var head:Node? = null //It is a pointer. NOTING MORE!
 
     @Throws(Exception::class) // this for throwing exception
     fun add(value:Any){
