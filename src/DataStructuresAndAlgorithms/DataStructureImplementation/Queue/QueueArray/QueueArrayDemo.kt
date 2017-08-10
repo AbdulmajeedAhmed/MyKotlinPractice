@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.Queue.QueueArray
+package DataStructuresAndAlgorithms.DataStructureImplementation.Queue.QueueArray
 
 fun main(args: Array<String>) {
     val arrayQueue= QueueArray(5)

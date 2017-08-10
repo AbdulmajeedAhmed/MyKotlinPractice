@@ -1,11 +1,11 @@
-package DataStructuresAndAlgorithms.Queue.QueueLinkedList
+package DataStructuresAndAlgorithms.DataStructureImplementation.Queue.QueueLinkedList
 
 class QueueLinkedList{
-    var front:Node?= null
-    var rear:Node?=null
+    var front: Node?= null
+    var rear: Node?=null
 
     fun enqueue(value:Any){
-        val newNode=Node(value,null)
+        val newNode= Node(value, null)
 
         if(front==null){ // no elements yet...
             front=newNode

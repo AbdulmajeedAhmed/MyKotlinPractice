@@ -1,7 +1,7 @@
 package Others;
 
 
-import DataStructuresAndAlgorithms.HashTable.Node;
+import DataStructuresAndAlgorithms.DataStructureImplementation.HashTable.Node;
 
 public class TWODArray {
     public static int nums[][]= new int[2][3];

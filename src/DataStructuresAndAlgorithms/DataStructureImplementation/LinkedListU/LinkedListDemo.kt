@@ -1,8 +1,8 @@
-package DataStructuresAndAlgorithms.LinkedListU
+package DataStructuresAndAlgorithms.DataStructureImplementation.LinkedListU
 
 object LinkedListDemo{
     @JvmStatic fun main(args: Array<String>) {
-        val linkedList=MyLinkedList() //linkedList of any type!!!
+        val linkedList= MyLinkedList() //linkedList of any type!!!
         linkedList.add('a')
         linkedList.add(4)
         linkedList.add(true)

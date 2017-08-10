@@ -1,8 +1,8 @@
-package DataStructuresAndAlgorithms.Queue.QueueLinkedList
+package DataStructuresAndAlgorithms.DataStructureImplementation.Queue.QueueLinkedList
 
 
 fun main(args: Array<String>) {
-    val queueLinkedList=QueueLinkedList()
+    val queueLinkedList= QueueLinkedList()
 
     queueLinkedList.enqueue(1)
     queueLinkedList.enqueue(2)

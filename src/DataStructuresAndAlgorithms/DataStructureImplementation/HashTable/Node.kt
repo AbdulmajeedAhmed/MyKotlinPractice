@@ -1,9 +1,9 @@
-package DataStructuresAndAlgorithms.HashTable
+package DataStructuresAndAlgorithms.DataStructureImplementation.HashTable
 
 class Node() {
     private var key:Int?=null
     private var value:Any?=null
-    var next:Node?=null
+    var next: Node?=null
 
     constructor(key:Int,value:Any):this(){
         this.key=key

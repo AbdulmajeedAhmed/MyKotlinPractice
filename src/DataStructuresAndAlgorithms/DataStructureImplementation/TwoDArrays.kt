@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms
+package DataStructuresAndAlgorithms.DataStructureImplementation
 
 class TwoDArrays {
     companion object {

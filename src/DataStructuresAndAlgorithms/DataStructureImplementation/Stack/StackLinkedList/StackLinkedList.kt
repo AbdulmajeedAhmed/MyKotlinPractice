@@ -1,11 +1,11 @@
-package DataStructuresAndAlgorithms.Stack.StackLinkedList
+package DataStructuresAndAlgorithms.DataStructureImplementation.Stack.StackLinkedList
 
 // The idea is to think about pointers and BUILD every thing from pointing!!.
 class StackLinkedList{
-    private var top:Node?=null // It is a pointer. NOTING MORE!
+    private var top: Node?=null // It is a pointer. NOTING MORE!
 
     fun push(value:Any){
-        val newNode=Node(value,null)
+        val newNode= Node(value, null)
         if(top==null){
             top=newNode
         }

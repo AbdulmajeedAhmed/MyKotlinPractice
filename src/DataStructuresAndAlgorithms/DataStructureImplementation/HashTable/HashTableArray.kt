@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.HashTable
+package DataStructuresAndAlgorithms.DataStructureImplementation.HashTable
 /*
 The implementation of the hash table will be using Array.
 You can use anything else to implement the hash with.
@@ -18,7 +18,7 @@ class HashTableArray(var size:Int){
     fun put(key:Int,value:Any){
         /* Trace the following on piece of paper*/
         // 1-create new node..
-        var newNode=Node(key,value)
+        var newNode= Node(key, value)
 
         // 2-hash the key
         var hashedKey=hashKey(key)

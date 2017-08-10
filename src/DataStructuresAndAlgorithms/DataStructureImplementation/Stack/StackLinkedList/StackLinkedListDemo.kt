@@ -1,7 +1,7 @@
-package DataStructuresAndAlgorithms.Stack.StackLinkedList
+package DataStructuresAndAlgorithms.DataStructureImplementation.Stack.StackLinkedList
 
 fun main(args: Array<String>) {
-    val stackLinkedList=StackLinkedList()
+    val stackLinkedList= StackLinkedList()
 
     stackLinkedList.push(1)
     stackLinkedList.push(2)

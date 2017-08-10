@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.Stack.StackArray
+package DataStructuresAndAlgorithms.DataStructureImplementation.Stack.StackArray
 
 
 class StackArray(var size:Int){

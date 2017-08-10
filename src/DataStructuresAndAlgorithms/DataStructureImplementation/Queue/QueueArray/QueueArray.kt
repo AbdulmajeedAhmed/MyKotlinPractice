@@ -1,4 +1,4 @@
-package DataStructuresAndAlgorithms.Queue.QueueArray
+package DataStructuresAndAlgorithms.DataStructureImplementation.Queue.QueueArray
 
 class QueueArray(var size:Int){
     private var front=-1

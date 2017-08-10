@@ -1,7 +1,7 @@
-package DataStructuresAndAlgorithms.Stack.StackArray
+package DataStructuresAndAlgorithms.DataStructureImplementation.Stack.StackArray
 
 fun main(args: Array<String>) {
-    val stack1=StackArray(5)
+    val stack1= StackArray(5)
     stack1.put(newItem = 1)
     stack1.put(newItem = 2)
     stack1.put(newItem = 3)
